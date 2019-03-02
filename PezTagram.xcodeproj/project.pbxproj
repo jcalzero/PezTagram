@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08E75695A0767955C452DAE1 /* Pods_PezTagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D99267F2A15F212B6B5F9A /* Pods_PezTagram.framework */; };
+		4B69E49F85BEEBFD3F92716B /* Pods_PezTagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1142CEB2D309BD21AC46D106 /* Pods_PezTagramTests.framework */; };
+		890BAB062E9C1DA4652F78EA /* Pods_PezTagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F929E199434C0580DA9FC600 /* Pods_PezTagramUITests.framework */; };
 		C40E3DAF222A64DC0084060C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40E3DAE222A64DC0084060C /* AppDelegate.swift */; };
-		C40E3DB1222A64DC0084060C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40E3DB0222A64DC0084060C /* ViewController.swift */; };
 		C40E3DB4222A64DC0084060C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40E3DB2222A64DC0084060C /* Main.storyboard */; };
 		C40E3DB6222A64DE0084060C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C40E3DB5222A64DE0084060C /* Assets.xcassets */; };
 		C40E3DB9222A64DE0084060C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40E3DB7222A64DE0084060C /* LaunchScreen.storyboard */; };
 		C40E3DC4222A64DE0084060C /* PezTagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40E3DC3222A64DE0084060C /* PezTagramTests.swift */; };
 		C40E3DCF222A64DE0084060C /* PezTagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40E3DCE222A64DE0084060C /* PezTagramUITests.swift */; };
+		C42D0329222A68A000D4F391 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D0328222A68A000D4F391 /* FeedViewController.swift */; };
+		C42D032B222A68BB00D4F391 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D032A222A68BB00D4F391 /* LoginViewController.swift */; };
+		C42D032F222A699900D4F391 /* ProfileCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D032E222A699900D4F391 /* ProfileCollectionView.swift */; };
+		C42D0331222A69BB00D4F391 /* ProfilesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D0330222A69BB00D4F391 /* ProfilesCollectionViewCell.swift */; };
+		C42D0333222A6F9300D4F391 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D0332222A6F9300D4F391 /* ProfileViewController.swift */; };
+		C42D0335222A6FD700D4F391 /* ProfilePostsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D0334222A6FD700D4F391 /* ProfilePostsCollectionView.swift */; };
+		C42D0337222A72A000D4F391 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D0336222A72A000D4F391 /* PostViewController.swift */; };
+		C42D033A222A741C00D4F391 /* FeedPostsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D0339222A741C00D4F391 /* FeedPostsTableView.swift */; };
+		C42D033C222A743A00D4F391 /* FeedPostsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D033B222A743A00D4F391 /* FeedPostsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +45,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06999F67CE7468830DDC9C22 /* Pods-PezTagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PezTagram.debug.xcconfig"; path = "Target Support Files/Pods-PezTagram/Pods-PezTagram.debug.xcconfig"; sourceTree = "<group>"; };
+		1142CEB2D309BD21AC46D106 /* Pods_PezTagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PezTagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11694A8968CD784E3BF18F1B /* Pods-PezTagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PezTagram.release.xcconfig"; path = "Target Support Files/Pods-PezTagram/Pods-PezTagram.release.xcconfig"; sourceTree = "<group>"; };
+		266757CD70392232731B0EC5 /* Pods-PezTagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PezTagramTests.release.xcconfig"; path = "Target Support Files/Pods-PezTagramTests/Pods-PezTagramTests.release.xcconfig"; sourceTree = "<group>"; };
+		30D99267F2A15F212B6B5F9A /* Pods_PezTagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PezTagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		319C1DFE9D8A5874CC4D965B /* Pods-PezTagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PezTagramUITests.debug.xcconfig"; path = "Target Support Files/Pods-PezTagramUITests/Pods-PezTagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5459D9AA56A35153BF890E0A /* Pods-PezTagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PezTagramTests.debug.xcconfig"; path = "Target Support Files/Pods-PezTagramTests/Pods-PezTagramTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C40E3DAB222A64DC0084060C /* PezTagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PezTagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C40E3DAE222A64DC0084060C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C40E3DB0222A64DC0084060C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C40E3DB3222A64DC0084060C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C40E3DB5222A64DE0084060C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C40E3DB8222A64DE0084060C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +64,17 @@
 		C40E3DCA222A64DE0084060C /* PezTagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PezTagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C40E3DCE222A64DE0084060C /* PezTagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PezTagramUITests.swift; sourceTree = "<group>"; };
 		C40E3DD0222A64DE0084060C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C42D0328222A68A000D4F391 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		C42D032A222A68BB00D4F391 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C42D032E222A699900D4F391 /* ProfileCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionView.swift; sourceTree = "<group>"; };
+		C42D0330222A69BB00D4F391 /* ProfilesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilesCollectionViewCell.swift; sourceTree = "<group>"; };
+		C42D0332222A6F9300D4F391 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		C42D0334222A6FD700D4F391 /* ProfilePostsCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePostsCollectionView.swift; sourceTree = "<group>"; };
+		C42D0336222A72A000D4F391 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		C42D0339222A741C00D4F391 /* FeedPostsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPostsTableView.swift; sourceTree = "<group>"; };
+		C42D033B222A743A00D4F391 /* FeedPostsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPostsTableViewCell.swift; sourceTree = "<group>"; };
+		E5182370B4AFB9A925C798D4 /* Pods-PezTagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PezTagramUITests.release.xcconfig"; path = "Target Support Files/Pods-PezTagramUITests/Pods-PezTagramUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F929E199434C0580DA9FC600 /* Pods_PezTagramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PezTagramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08E75695A0767955C452DAE1 /* Pods_PezTagram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B69E49F85BEEBFD3F92716B /* Pods_PezTagramTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +98,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				890BAB062E9C1DA4652F78EA /* Pods_PezTagramUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A1124A02A19BB4AE5BFFDD1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06999F67CE7468830DDC9C22 /* Pods-PezTagram.debug.xcconfig */,
+				11694A8968CD784E3BF18F1B /* Pods-PezTagram.release.xcconfig */,
+				5459D9AA56A35153BF890E0A /* Pods-PezTagramTests.debug.xcconfig */,
+				266757CD70392232731B0EC5 /* Pods-PezTagramTests.release.xcconfig */,
+				319C1DFE9D8A5874CC4D965B /* Pods-PezTagramUITests.debug.xcconfig */,
+				E5182370B4AFB9A925C798D4 /* Pods-PezTagramUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C40E3DA2222A64DC0084060C = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +125,8 @@
 				C40E3DC2222A64DE0084060C /* PezTagramTests */,
 				C40E3DCD222A64DE0084060C /* PezTagramUITests */,
 				C40E3DAC222A64DC0084060C /* Products */,
+				A1124A02A19BB4AE5BFFDD1D /* Pods */,
+				D30016B42600C98EAA20E18B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +143,12 @@
 		C40E3DAD222A64DC0084060C /* PezTagram */ = {
 			isa = PBXGroup;
 			children = (
-				C40E3DAE222A64DC0084060C /* AppDelegate.swift */,
-				C40E3DB0222A64DC0084060C /* ViewController.swift */,
 				C40E3DB2222A64DC0084060C /* Main.storyboard */,
+				C42D032A222A68BB00D4F391 /* LoginViewController.swift */,
+				C42D033E222A74BC00D4F391 /* Post */,
+				C42D033D222A746500D4F391 /* Profile */,
+				C42D0338222A73A200D4F391 /* Feed */,
+				C40E3DAE222A64DC0084060C /* AppDelegate.swift */,
 				C40E3DB5222A64DE0084060C /* Assets.xcassets */,
 				C40E3DB7222A64DE0084060C /* LaunchScreen.storyboard */,
 				C40E3DBA222A64DE0084060C /* Info.plist */,
@@ -125,6 +174,45 @@
 			path = PezTagramUITests;
 			sourceTree = "<group>";
 		};
+		C42D0338222A73A200D4F391 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				C42D032E222A699900D4F391 /* ProfileCollectionView.swift */,
+				C42D0328222A68A000D4F391 /* FeedViewController.swift */,
+				C42D033B222A743A00D4F391 /* FeedPostsTableViewCell.swift */,
+				C42D0339222A741C00D4F391 /* FeedPostsTableView.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		C42D033D222A746500D4F391 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				C42D0332222A6F9300D4F391 /* ProfileViewController.swift */,
+				C42D0334222A6FD700D4F391 /* ProfilePostsCollectionView.swift */,
+				C42D0330222A69BB00D4F391 /* ProfilesCollectionViewCell.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		C42D033E222A74BC00D4F391 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				C42D0336222A72A000D4F391 /* PostViewController.swift */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		D30016B42600C98EAA20E18B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30D99267F2A15F212B6B5F9A /* Pods_PezTagram.framework */,
+				1142CEB2D309BD21AC46D106 /* Pods_PezTagramTests.framework */,
+				F929E199434C0580DA9FC600 /* Pods_PezTagramUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C40E3DD3222A64DE0084060C /* Build configuration list for PBXNativeTarget "PezTagram" */;
 			buildPhases = (
+				BB707A422760FF70986DFDCA /* [CP] Check Pods Manifest.lock */,
 				C40E3DA7222A64DC0084060C /* Sources */,
 				C40E3DA8222A64DC0084060C /* Frameworks */,
 				C40E3DA9222A64DC0084060C /* Resources */,
+				A6710656A16E69E75A946093 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +239,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C40E3DD6222A64DE0084060C /* Build configuration list for PBXNativeTarget "PezTagramTests" */;
 			buildPhases = (
+				CE683B7D4B95ED2BD6CB1702 /* [CP] Check Pods Manifest.lock */,
 				C40E3DBB222A64DE0084060C /* Sources */,
 				C40E3DBC222A64DE0084060C /* Frameworks */,
 				C40E3DBD222A64DE0084060C /* Resources */,
@@ -167,6 +258,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C40E3DD9222A64DE0084060C /* Build configuration list for PBXNativeTarget "PezTagramUITests" */;
 			buildPhases = (
+				C90ED7ADCA6060A090519EF6 /* [CP] Check Pods Manifest.lock */,
 				C40E3DC6222A64DE0084060C /* Sources */,
 				C40E3DC7222A64DE0084060C /* Frameworks */,
 				C40E3DC8222A64DE0084060C /* Resources */,
@@ -251,13 +343,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A6710656A16E69E75A946093 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PezTagram/Pods-PezTagram-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PezTagram/Pods-PezTagram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB707A422760FF70986DFDCA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PezTagram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C90ED7ADCA6060A090519EF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PezTagramUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE683B7D4B95ED2BD6CB1702 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PezTagramTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C40E3DA7222A64DC0084060C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C40E3DB1222A64DC0084060C /* ViewController.swift in Sources */,
+				C42D0337222A72A000D4F391 /* PostViewController.swift in Sources */,
+				C42D0333222A6F9300D4F391 /* ProfileViewController.swift in Sources */,
+				C42D032B222A68BB00D4F391 /* LoginViewController.swift in Sources */,
+				C42D0329222A68A000D4F391 /* FeedViewController.swift in Sources */,
+				C42D032F222A699900D4F391 /* ProfileCollectionView.swift in Sources */,
 				C40E3DAF222A64DC0084060C /* AppDelegate.swift in Sources */,
+				C42D0335222A6FD700D4F391 /* ProfilePostsCollectionView.swift in Sources */,
+				C42D033C222A743A00D4F391 /* FeedPostsTableViewCell.swift in Sources */,
+				C42D0331222A69BB00D4F391 /* ProfilesCollectionViewCell.swift in Sources */,
+				C42D033A222A741C00D4F391 /* FeedPostsTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +627,7 @@
 		};
 		C40E3DD4222A64DE0084060C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06999F67CE7468830DDC9C22 /* Pods-PezTagram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +646,7 @@
 		};
 		C40E3DD5222A64DE0084060C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11694A8968CD784E3BF18F1B /* Pods-PezTagram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +665,7 @@
 		};
 		C40E3DD7222A64DE0084060C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5459D9AA56A35153BF890E0A /* Pods-PezTagramTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +687,7 @@
 		};
 		C40E3DD8222A64DE0084060C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 266757CD70392232731B0EC5 /* Pods-PezTagramTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +709,7 @@
 		};
 		C40E3DDA222A64DE0084060C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 319C1DFE9D8A5874CC4D965B /* Pods-PezTagramUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +730,7 @@
 		};
 		C40E3DDB222A64DE0084060C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5182370B4AFB9A925C798D4 /* Pods-PezTagramUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

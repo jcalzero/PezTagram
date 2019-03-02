@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C40E3DAF222A64DC0084060C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40E3DAE222A64DC0084060C /* AppDelegate.swift */; };
+		C40E3DB1222A64DC0084060C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40E3DB0222A64DC0084060C /* ViewController.swift */; };
+		C40E3DB4222A64DC0084060C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40E3DB2222A64DC0084060C /* Main.storyboard */; };
+		C40E3DB6222A64DE0084060C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C40E3DB5222A64DE0084060C /* Assets.xcassets */; };
+		C40E3DB9222A64DE0084060C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40E3DB7222A64DE0084060C /* LaunchScreen.storyboard */; };
+		C40E3DC4222A64DE0084060C /* PezTagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40E3DC3222A64DE0084060C /* PezTagramTests.swift */; };
+		C40E3DCF222A64DE0084060C /* PezTagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40E3DCE222A64DE0084060C /* PezTagramUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C40E3DC0222A64DE0084060C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C40E3DA3222A64DC0084060C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C40E3DAA222A64DC0084060C;
+			remoteInfo = PezTagram;
+		};
+		C40E3DCB222A64DE0084060C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C40E3DA3222A64DC0084060C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C40E3DAA222A64DC0084060C;
+			remoteInfo = PezTagram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C40E3DAB222A64DC0084060C /* PezTagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PezTagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40E3DAE222A64DC0084060C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C40E3DB0222A64DC0084060C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C40E3DB3222A64DC0084060C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C40E3DB5222A64DE0084060C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C40E3DB8222A64DE0084060C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C40E3DBA222A64DE0084060C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C40E3DBF222A64DE0084060C /* PezTagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PezTagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40E3DC3222A64DE0084060C /* PezTagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PezTagramTests.swift; sourceTree = "<group>"; };
+		C40E3DC5222A64DE0084060C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C40E3DCA222A64DE0084060C /* PezTagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PezTagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40E3DCE222A64DE0084060C /* PezTagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PezTagramUITests.swift; sourceTree = "<group>"; };
+		C40E3DD0222A64DE0084060C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C40E3DA8222A64DC0084060C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40E3DBC222A64DE0084060C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40E3DC7222A64DE0084060C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C40E3DA2222A64DC0084060C = {
+			isa = PBXGroup;
+			children = (
+				C40E3DAD222A64DC0084060C /* PezTagram */,
+				C40E3DC2222A64DE0084060C /* PezTagramTests */,
+				C40E3DCD222A64DE0084060C /* PezTagramUITests */,
+				C40E3DAC222A64DC0084060C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C40E3DAC222A64DC0084060C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C40E3DAB222A64DC0084060C /* PezTagram.app */,
+				C40E3DBF222A64DE0084060C /* PezTagramTests.xctest */,
+				C40E3DCA222A64DE0084060C /* PezTagramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C40E3DAD222A64DC0084060C /* PezTagram */ = {
+			isa = PBXGroup;
+			children = (
+				C40E3DAE222A64DC0084060C /* AppDelegate.swift */,
+				C40E3DB0222A64DC0084060C /* ViewController.swift */,
+				C40E3DB2222A64DC0084060C /* Main.storyboard */,
+				C40E3DB5222A64DE0084060C /* Assets.xcassets */,
+				C40E3DB7222A64DE0084060C /* LaunchScreen.storyboard */,
+				C40E3DBA222A64DE0084060C /* Info.plist */,
+			);
+			path = PezTagram;
+			sourceTree = "<group>";
+		};
+		C40E3DC2222A64DE0084060C /* PezTagramTests */ = {
+			isa = PBXGroup;
+			children = (
+				C40E3DC3222A64DE0084060C /* PezTagramTests.swift */,
+				C40E3DC5222A64DE0084060C /* Info.plist */,
+			);
+			path = PezTagramTests;
+			sourceTree = "<group>";
+		};
+		C40E3DCD222A64DE0084060C /* PezTagramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C40E3DCE222A64DE0084060C /* PezTagramUITests.swift */,
+				C40E3DD0222A64DE0084060C /* Info.plist */,
+			);
+			path = PezTagramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C40E3DAA222A64DC0084060C /* PezTagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C40E3DD3222A64DE0084060C /* Build configuration list for PBXNativeTarget "PezTagram" */;
+			buildPhases = (
+				C40E3DA7222A64DC0084060C /* Sources */,
+				C40E3DA8222A64DC0084060C /* Frameworks */,
+				C40E3DA9222A64DC0084060C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PezTagram;
+			productName = PezTagram;
+			productReference = C40E3DAB222A64DC0084060C /* PezTagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C40E3DBE222A64DE0084060C /* PezTagramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C40E3DD6222A64DE0084060C /* Build configuration list for PBXNativeTarget "PezTagramTests" */;
+			buildPhases = (
+				C40E3DBB222A64DE0084060C /* Sources */,
+				C40E3DBC222A64DE0084060C /* Frameworks */,
+				C40E3DBD222A64DE0084060C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C40E3DC1222A64DE0084060C /* PBXTargetDependency */,
+			);
+			name = PezTagramTests;
+			productName = PezTagramTests;
+			productReference = C40E3DBF222A64DE0084060C /* PezTagramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C40E3DC9222A64DE0084060C /* PezTagramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C40E3DD9222A64DE0084060C /* Build configuration list for PBXNativeTarget "PezTagramUITests" */;
+			buildPhases = (
+				C40E3DC6222A64DE0084060C /* Sources */,
+				C40E3DC7222A64DE0084060C /* Frameworks */,
+				C40E3DC8222A64DE0084060C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C40E3DCC222A64DE0084060C /* PBXTargetDependency */,
+			);
+			name = PezTagramUITests;
+			productName = PezTagramUITests;
+			productReference = C40E3DCA222A64DE0084060C /* PezTagramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C40E3DA3222A64DC0084060C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Julien Calfayan";
+				TargetAttributes = {
+					C40E3DAA222A64DC0084060C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C40E3DBE222A64DE0084060C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C40E3DAA222A64DC0084060C;
+					};
+					C40E3DC9222A64DE0084060C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C40E3DAA222A64DC0084060C;
+					};
+				};
+			};
+			buildConfigurationList = C40E3DA6222A64DC0084060C /* Build configuration list for PBXProject "PezTagram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C40E3DA2222A64DC0084060C;
+			productRefGroup = C40E3DAC222A64DC0084060C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C40E3DAA222A64DC0084060C /* PezTagram */,
+				C40E3DBE222A64DE0084060C /* PezTagramTests */,
+				C40E3DC9222A64DE0084060C /* PezTagramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C40E3DA9222A64DC0084060C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40E3DB9222A64DE0084060C /* LaunchScreen.storyboard in Resources */,
+				C40E3DB6222A64DE0084060C /* Assets.xcassets in Resources */,
+				C40E3DB4222A64DC0084060C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40E3DBD222A64DE0084060C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40E3DC8222A64DE0084060C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C40E3DA7222A64DC0084060C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40E3DB1222A64DC0084060C /* ViewController.swift in Sources */,
+				C40E3DAF222A64DC0084060C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40E3DBB222A64DE0084060C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40E3DC4222A64DE0084060C /* PezTagramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40E3DC6222A64DE0084060C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40E3DCF222A64DE0084060C /* PezTagramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C40E3DC1222A64DE0084060C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C40E3DAA222A64DC0084060C /* PezTagram */;
+			targetProxy = C40E3DC0222A64DE0084060C /* PBXContainerItemProxy */;
+		};
+		C40E3DCC222A64DE0084060C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C40E3DAA222A64DC0084060C /* PezTagram */;
+			targetProxy = C40E3DCB222A64DE0084060C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C40E3DB2222A64DC0084060C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C40E3DB3222A64DC0084060C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C40E3DB7222A64DE0084060C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C40E3DB8222A64DE0084060C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C40E3DD1222A64DE0084060C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C40E3DD2222A64DE0084060C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C40E3DD4222A64DE0084060C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLWZ722TCU;
+				INFOPLIST_FILE = PezTagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pez.PezTagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C40E3DD5222A64DE0084060C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLWZ722TCU;
+				INFOPLIST_FILE = PezTagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pez.PezTagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C40E3DD7222A64DE0084060C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLWZ722TCU;
+				INFOPLIST_FILE = PezTagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pez.PezTagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PezTagram.app/PezTagram";
+			};
+			name = Debug;
+		};
+		C40E3DD8222A64DE0084060C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLWZ722TCU;
+				INFOPLIST_FILE = PezTagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pez.PezTagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PezTagram.app/PezTagram";
+			};
+			name = Release;
+		};
+		C40E3DDA222A64DE0084060C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLWZ722TCU;
+				INFOPLIST_FILE = PezTagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pez.PezTagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PezTagram;
+			};
+			name = Debug;
+		};
+		C40E3DDB222A64DE0084060C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLWZ722TCU;
+				INFOPLIST_FILE = PezTagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pez.PezTagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PezTagram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C40E3DA6222A64DC0084060C /* Build configuration list for PBXProject "PezTagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40E3DD1222A64DE0084060C /* Debug */,
+				C40E3DD2222A64DE0084060C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C40E3DD3222A64DE0084060C /* Build configuration list for PBXNativeTarget "PezTagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40E3DD4222A64DE0084060C /* Debug */,
+				C40E3DD5222A64DE0084060C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C40E3DD6222A64DE0084060C /* Build configuration list for PBXNativeTarget "PezTagramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40E3DD7222A64DE0084060C /* Debug */,
+				C40E3DD8222A64DE0084060C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C40E3DD9222A64DE0084060C /* Build configuration list for PBXNativeTarget "PezTagramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40E3DDA222A64DE0084060C /* Debug */,
+				C40E3DDB222A64DE0084060C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C40E3DA3222A64DC0084060C /* Project object */;
+}

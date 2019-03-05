@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Parse
 
 class FeedViewController: UIViewController {
 
@@ -14,6 +15,11 @@ class FeedViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    }
+    @IBAction func logoutButton(_ sender: Any) {
+        PFUser.logOut()
+        var currentUser = PFUser.current()
+        self.dismiss(animated: true, completion: nil)
     }
     
 

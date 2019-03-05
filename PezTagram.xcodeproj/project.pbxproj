@@ -25,6 +25,7 @@
 		C42D0337222A72A000D4F391 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D0336222A72A000D4F391 /* PostViewController.swift */; };
 		C42D033A222A741C00D4F391 /* FeedPostsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D0339222A741C00D4F391 /* FeedPostsTableView.swift */; };
 		C42D033C222A743A00D4F391 /* FeedPostsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D033B222A743A00D4F391 /* FeedPostsTableViewCell.swift */; };
+		C4FC0215222E372D008EBFBA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FC0214222E372D008EBFBA /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		C42D0336222A72A000D4F391 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		C42D0339222A741C00D4F391 /* FeedPostsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPostsTableView.swift; sourceTree = "<group>"; };
 		C42D033B222A743A00D4F391 /* FeedPostsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPostsTableViewCell.swift; sourceTree = "<group>"; };
+		C4FC0214222E372D008EBFBA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		E5182370B4AFB9A925C798D4 /* Pods-PezTagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PezTagramUITests.release.xcconfig"; path = "Target Support Files/Pods-PezTagramUITests/Pods-PezTagramUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F929E199434C0580DA9FC600 /* Pods_PezTagramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PezTagramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -144,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				C40E3DB2222A64DC0084060C /* Main.storyboard */,
+				C4FC0214222E372D008EBFBA /* SignUpViewController.swift */,
 				C42D032A222A68BB00D4F391 /* LoginViewController.swift */,
 				C42D033E222A74BC00D4F391 /* Post */,
 				C42D033D222A746500D4F391 /* Profile */,
@@ -445,6 +448,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4FC0215222E372D008EBFBA /* SignUpViewController.swift in Sources */,
 				C42D0337222A72A000D4F391 /* PostViewController.swift in Sources */,
 				C42D0333222A6F9300D4F391 /* ProfileViewController.swift in Sources */,
 				C42D032B222A68BB00D4F391 /* LoginViewController.swift in Sources */,

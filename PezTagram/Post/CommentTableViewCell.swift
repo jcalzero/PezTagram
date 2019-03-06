@@ -1,21 +1,17 @@
 //
-//  FeedPostsTableViewCell.swift
+//  CommentTableViewCell.swift
 //  PezTagram
 //
-//  Created by Julien Calfayan on 3/2/19.
+//  Created by Julien Calfayan on 3/6/19.
 //  Copyright © 2019 Julien Calfayan. All rights reserved.
 //
 
 import UIKit
 
-class FeedPostsTableViewCell: UITableViewCell {
+class CommentTableViewCell: UITableViewCell {
 
-    @IBOutlet var profilePictureView: UIImageView!
-    @IBOutlet var usernameLabel: UILabel!
-    @IBOutlet var photoView: UIImageView!
-    @IBOutlet var captionLabel: UILabel!
-    @IBOutlet var usernameLabelTwo: UILabel!
-    
+    @IBOutlet var usernameCommentLabel: UILabel!
+    @IBOutlet var commentLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

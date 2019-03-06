@@ -8,6 +8,7 @@ target 'PezTagram' do
   # Pods for PezTagram
 pod "Parse"
 pod "AlamofireImage"
+pod "MessageInputBar"
 
   target 'PezTagramTests' do
     inherit! :search_paths

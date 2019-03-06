@@ -27,33 +27,10 @@ class SignUpViewController: UIViewController, UIImagePickerControllerDelegate, U
     @IBAction func dismissKeyboard(_ sender: Any) {
         view.endEditing(true)
     }
+    
     @IBAction func onCancel(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
-    /*@IBAction func onCameraButton(_ sender: Any) {
-        let picker = UIImagePickerController()
-        picker.delegate = self
-        picker.allowsEditing = true
-        
-        if UIImagePickerController.isSourceTypeAvailable(.camera) {
-            picker.sourceType = .camera
-        } else {
-            picker.sourceType = .photoLibrary
-        }
-        
-        present(picker, animated: true, completion: nil)
-    }
-    
-    @objc func imagePickerController(_ _picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-        let image = info[.editedImage] as! UIImage
-        
-        let size = CGSize(width: 250, height: 250)
-        let scaledImage = image.af_imageScaled(to: size)
-        
-        profilePictureSignUp.image = scaledImage
-        
-        dismiss(animated: true, completion: nil)
-    }*/
     
     @IBAction func onSignUp(_ sender: Any) {
         let user = PFUser()
@@ -62,7 +39,7 @@ class SignUpViewController: UIViewController, UIImagePickerControllerDelegate, U
         user.email = emailSignUp.text
         
         user["bio"] = bioSignUp.text
-                
+        
         user.signUpInBackground { (success, error) in
             if success {
                 self.dismiss(animated: true, completion: nil)

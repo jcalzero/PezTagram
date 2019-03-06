@@ -19,14 +19,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="peztagram" translatesAutoresizingMaskIntoConstraints="NO" id="vKr-tc-XtR">
-                                <rect key="frame" x="87" y="192" width="200" height="200"/>
+                                <rect key="frame" x="87.5" y="233.5" width="200" height="200"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="YVr-z1-Hpu"/>
-                                    <constraint firstAttribute="height" constant="200" id="pyJ-vA-bDy"/>
+                                    <constraint firstAttribute="height" constant="200" id="0s5-cl-afc"/>
+                                    <constraint firstAttribute="width" constant="200" id="AkY-9w-IiI"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PezTagram" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Chv-Lp-Adu">
-                                <rect key="frame" x="77" y="400" width="221" height="60"/>
+                                <rect key="frame" x="77" y="441" width="221" height="60"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -34,14 +34,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Chv-Lp-Adu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="77" id="1zk-fg-Tub"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Chv-Lp-Adu" secondAttribute="trailing" constant="77" id="29A-Eu-epO"/>
-                            <constraint firstItem="vKr-tc-XtR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="172" id="66S-Ob-twK"/>
-                            <constraint firstItem="Chv-Lp-Adu" firstAttribute="top" secondItem="vKr-tc-XtR" secondAttribute="bottom" constant="8" id="aj6-6V-cN2"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vKr-tc-XtR" secondAttribute="trailing" constant="88" id="bYy-js-Uc0"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Chv-Lp-Adu" secondAttribute="bottom" constant="207" id="kcw-E6-UhP"/>
-                            <constraint firstItem="vKr-tc-XtR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="sBs-Mb-ZnO"/>
-                            <constraint firstItem="Chv-Lp-Adu" firstAttribute="top" secondItem="vKr-tc-XtR" secondAttribute="bottom" constant="8" id="wmv-da-Dtw"/>
+                            <constraint firstItem="vKr-tc-XtR" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="2pk-3j-sU1"/>
+                            <constraint firstItem="vKr-tc-XtR" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="A3U-gq-cPB"/>
+                            <constraint firstItem="Chv-Lp-Adu" firstAttribute="top" secondItem="vKr-tc-XtR" secondAttribute="bottom" constant="7.5" id="ECX-iO-uZY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Chv-Lp-Adu" secondAttribute="trailing" constant="77" id="FXf-Nd-HC6"/>
+                            <constraint firstItem="Chv-Lp-Adu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="77" id="YFs-ET-3By"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Chv-Lp-Adu" secondAttribute="bottom" constant="166" id="pZj-wb-PuB"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

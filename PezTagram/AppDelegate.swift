@@ -26,6 +26,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             })
         )
         
+        if PFUser.current() != nil {
+            let main = UIStoryboard(name: "Main", bundle: nil)
+            let feedTabBarController = main.instantiateViewController(withIdentifier: "FeedTabBarController")
+            
+            window?.rootViewController = feedTabBarController
+        }
+        
         return true
     }
 

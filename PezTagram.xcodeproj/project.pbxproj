@@ -10,6 +10,9 @@
 		08E75695A0767955C452DAE1 /* Pods_PezTagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D99267F2A15F212B6B5F9A /* Pods_PezTagram.framework */; };
 		4B69E49F85BEEBFD3F92716B /* Pods_PezTagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1142CEB2D309BD21AC46D106 /* Pods_PezTagramTests.framework */; };
 		890BAB062E9C1DA4652F78EA /* Pods_PezTagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F929E199434C0580DA9FC600 /* Pods_PezTagramUITests.framework */; };
+		C40CAE99222F741A006709CD /* UserPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40CAE98222F741A006709CD /* UserPostViewController.swift */; };
+		C40D7985222FAA73008D0947 /* ProfilePostsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40D7984222FAA73008D0947 /* ProfilePostsCollectionViewCell.swift */; };
+		C40D7987222FBAB8008D0947 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40D7986222FBAB8008D0947 /* CommentTableViewCell.swift */; };
 		C40E3DAF222A64DC0084060C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40E3DAE222A64DC0084060C /* AppDelegate.swift */; };
 		C40E3DB4222A64DC0084060C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40E3DB2222A64DC0084060C /* Main.storyboard */; };
 		C40E3DB6222A64DE0084060C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C40E3DB5222A64DE0084060C /* Assets.xcassets */; };
@@ -21,9 +24,7 @@
 		C42D032F222A699900D4F391 /* ProfileCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D032E222A699900D4F391 /* ProfileCollectionView.swift */; };
 		C42D0331222A69BB00D4F391 /* ProfilesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D0330222A69BB00D4F391 /* ProfilesCollectionViewCell.swift */; };
 		C42D0333222A6F9300D4F391 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D0332222A6F9300D4F391 /* ProfileViewController.swift */; };
-		C42D0335222A6FD700D4F391 /* ProfilePostsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D0334222A6FD700D4F391 /* ProfilePostsCollectionView.swift */; };
 		C42D0337222A72A000D4F391 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D0336222A72A000D4F391 /* PostViewController.swift */; };
-		C42D033A222A741C00D4F391 /* FeedPostsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D0339222A741C00D4F391 /* FeedPostsTableView.swift */; };
 		C42D033C222A743A00D4F391 /* FeedPostsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D033B222A743A00D4F391 /* FeedPostsTableViewCell.swift */; };
 		C4FC0215222E372D008EBFBA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FC0214222E372D008EBFBA /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
@@ -53,6 +54,9 @@
 		30D99267F2A15F212B6B5F9A /* Pods_PezTagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PezTagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		319C1DFE9D8A5874CC4D965B /* Pods-PezTagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PezTagramUITests.debug.xcconfig"; path = "Target Support Files/Pods-PezTagramUITests/Pods-PezTagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5459D9AA56A35153BF890E0A /* Pods-PezTagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PezTagramTests.debug.xcconfig"; path = "Target Support Files/Pods-PezTagramTests/Pods-PezTagramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C40CAE98222F741A006709CD /* UserPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostViewController.swift; sourceTree = "<group>"; };
+		C40D7984222FAA73008D0947 /* ProfilePostsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePostsCollectionViewCell.swift; sourceTree = "<group>"; };
+		C40D7986222FBAB8008D0947 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
 		C40E3DAB222A64DC0084060C /* PezTagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PezTagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C40E3DAE222A64DC0084060C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C40E3DB3222A64DC0084060C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -70,9 +74,7 @@
 		C42D032E222A699900D4F391 /* ProfileCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionView.swift; sourceTree = "<group>"; };
 		C42D0330222A69BB00D4F391 /* ProfilesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilesCollectionViewCell.swift; sourceTree = "<group>"; };
 		C42D0332222A6F9300D4F391 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		C42D0334222A6FD700D4F391 /* ProfilePostsCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePostsCollectionView.swift; sourceTree = "<group>"; };
 		C42D0336222A72A000D4F391 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
-		C42D0339222A741C00D4F391 /* FeedPostsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPostsTableView.swift; sourceTree = "<group>"; };
 		C42D033B222A743A00D4F391 /* FeedPostsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPostsTableViewCell.swift; sourceTree = "<group>"; };
 		C4FC0214222E372D008EBFBA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		E5182370B4AFB9A925C798D4 /* Pods-PezTagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PezTagramUITests.release.xcconfig"; path = "Target Support Files/Pods-PezTagramUITests/Pods-PezTagramUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -118,6 +120,15 @@
 				E5182370B4AFB9A925C798D4 /* Pods-PezTagramUITests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		C40D7983222FAA2E008D0947 /* Top Bar Profiles */ = {
+			isa = PBXGroup;
+			children = (
+				C42D032E222A699900D4F391 /* ProfileCollectionView.swift */,
+				C42D0330222A69BB00D4F391 /* ProfilesCollectionViewCell.swift */,
+			);
+			path = "Top Bar Profiles";
 			sourceTree = "<group>";
 		};
 		C40E3DA2222A64DC0084060C = {
@@ -180,10 +191,9 @@
 		C42D0338222A73A200D4F391 /* Feed */ = {
 			isa = PBXGroup;
 			children = (
-				C42D032E222A699900D4F391 /* ProfileCollectionView.swift */,
+				C40D7983222FAA2E008D0947 /* Top Bar Profiles */,
 				C42D0328222A68A000D4F391 /* FeedViewController.swift */,
 				C42D033B222A743A00D4F391 /* FeedPostsTableViewCell.swift */,
-				C42D0339222A741C00D4F391 /* FeedPostsTableView.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -192,8 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				C42D0332222A6F9300D4F391 /* ProfileViewController.swift */,
-				C42D0334222A6FD700D4F391 /* ProfilePostsCollectionView.swift */,
-				C42D0330222A69BB00D4F391 /* ProfilesCollectionViewCell.swift */,
+				C40D7984222FAA73008D0947 /* ProfilePostsCollectionViewCell.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -202,6 +211,8 @@
 			isa = PBXGroup;
 			children = (
 				C42D0336222A72A000D4F391 /* PostViewController.swift */,
+				C40D7986222FBAB8008D0947 /* CommentTableViewCell.swift */,
+				C40CAE98222F741A006709CD /* UserPostViewController.swift */,
 			);
 			path = Post;
 			sourceTree = "<group>";
@@ -359,6 +370,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -368,6 +380,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,13 +465,14 @@
 				C42D0337222A72A000D4F391 /* PostViewController.swift in Sources */,
 				C42D0333222A6F9300D4F391 /* ProfileViewController.swift in Sources */,
 				C42D032B222A68BB00D4F391 /* LoginViewController.swift in Sources */,
+				C40D7985222FAA73008D0947 /* ProfilePostsCollectionViewCell.swift in Sources */,
 				C42D0329222A68A000D4F391 /* FeedViewController.swift in Sources */,
 				C42D032F222A699900D4F391 /* ProfileCollectionView.swift in Sources */,
+				C40D7987222FBAB8008D0947 /* CommentTableViewCell.swift in Sources */,
 				C40E3DAF222A64DC0084060C /* AppDelegate.swift in Sources */,
-				C42D0335222A6FD700D4F391 /* ProfilePostsCollectionView.swift in Sources */,
 				C42D033C222A743A00D4F391 /* FeedPostsTableViewCell.swift in Sources */,
 				C42D0331222A69BB00D4F391 /* ProfilesCollectionViewCell.swift in Sources */,
-				C42D033A222A741C00D4F391 /* FeedPostsTableView.swift in Sources */,
+				C40CAE99222F741A006709CD /* UserPostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

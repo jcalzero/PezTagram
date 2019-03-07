@@ -40,6 +40,11 @@ class SignUpViewController: UIViewController, UIImagePickerControllerDelegate, U
         
         user["bio"] = bioSignUp.text
         
+        let imageData = UIImage(named: "noProfilePicture")!.pngData()
+        let file = PFFileObject(data: imageData!)
+        
+        user["profilePicture"] = file
+        
         user.signUpInBackground { (success, error) in
             if success {
                 self.dismiss(animated: true, completion: nil)

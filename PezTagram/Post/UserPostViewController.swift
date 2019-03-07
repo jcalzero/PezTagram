@@ -27,7 +27,7 @@ class UserPostViewController: UIViewController, UIImagePickerControllerDelegate,
     }
     
     @IBAction func onCancel(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil)
+        _ = self.navigationController?.popToRootViewController(animated: true)
     }
     
     @IBAction func onCamera(_ sender: Any) {
@@ -35,11 +35,7 @@ class UserPostViewController: UIViewController, UIImagePickerControllerDelegate,
         picker.delegate = self
         picker.allowsEditing = true
         
-        if UIImagePickerController.isSourceTypeAvailable(.camera) {
-            picker.sourceType = .camera
-        } else {
-            picker.sourceType = .photoLibrary
-        }
+        picker.sourceType = .photoLibrary
         
         present(picker, animated: true, completion: nil)
     }
@@ -68,7 +64,7 @@ class UserPostViewController: UIViewController, UIImagePickerControllerDelegate,
         
         post.saveInBackground() { (success, error) in
             if success {
-                self.dismiss(animated: true, completion: nil)
+                _ = self.navigationController?.popToRootViewController(animated: true)
                 print("Post Saved!")
             } else {
                 print("Error: \(String(describing: error?.localizedDescription))")

@@ -11,11 +11,10 @@ import UIKit
 class FeedPostsTableViewCell: UITableViewCell {
 
     @IBOutlet var profilePictureView: UIImageView!
-    @IBOutlet var usernameLabel: UILabel!
     @IBOutlet var photoView: UIImageView!
     @IBOutlet var captionLabel: UILabel!
     @IBOutlet var usernameLabelTwo: UILabel!
-    
+    @IBOutlet var usernameLabelButton: UIButton!
     
     override func awakeFromNib() {
         super.awakeFromNib()

@@ -13,9 +13,10 @@ import MessageInputBar
 class PostViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, MessageInputBarDelegate {
 
     @IBOutlet var postTableView: UITableView!
-    @IBOutlet var usernameLabel: UILabel!
+    @IBOutlet var usernameLabelButton: UIButton!
     @IBOutlet var photoView: UIImageView!
     @IBOutlet var captionLabel: UILabel!
+    @IBOutlet var profilePictureView: UIImageView!
     
     var post: PFObject!
     let commentBar = MessageInputBar()
@@ -32,7 +33,8 @@ class PostViewController: UIViewController, UITableViewDelegate, UITableViewData
         postTableView.dataSource = self
         
         let user = post["author"] as! PFUser
-        usernameLabel.text = user.username
+        usernameLabelButton.setTitle(user.username, for: .normal)
+ 
         captionLabel.text = post["caption"] as? String
         
         let imageFile = post["image"] as! PFFileObject
@@ -40,6 +42,14 @@ class PostViewController: UIViewController, UITableViewDelegate, UITableViewData
         let url = URL(string: urlString)!
         
         photoView.af_setImage(withURL: url)
+        
+        let imageFileTwo = user["profilePicture"] as! PFFileObject
+        let urlStringTwo = imageFileTwo.url!
+        let urlTwo = URL(string: urlStringTwo)!
+        
+        profilePictureView.layer.cornerRadius = 25
+        profilePictureView.clipsToBounds = true
+        profilePictureView.af_setImage(withURL: urlTwo)
         
         let center = NotificationCenter.default
         center.addObserver(self, selector: #selector(keyboardWillBeHidden(note:)), name: UIResponder.keyboardWillHideNotification, object: nil)
@@ -106,14 +116,27 @@ class PostViewController: UIViewController, UITableViewDelegate, UITableViewData
         let cell = tableView.dequeueReusableCell(withIdentifier: "CommentTableViewCell") as! CommentTableViewCell
         
         let comment = comments[indexPath.row + 1]
-        cell.commentLabel.text = comment["text"] as? String
+        cell.commentTextView.text = comment["text"] as? String
         
         let user = comment["author"] as! PFUser
         cell.usernameCommentLabel.text = user.username
+
+        let imageFile = user["profilePicture"] as! PFFileObject
+        let urlString = imageFile.url!
+        let url = URL(string: urlString)!
+        
+        cell.profilePicture.layer.cornerRadius = 20
+        cell.profilePicture.clipsToBounds = true
+        cell.profilePicture.af_setImage(withURL: url)
         
         return cell
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let postProfileViewController = segue.destination as! PostProfileViewController
+        let user = post["author"] as! PFUser
+        postProfileViewController.user = user
+    }
 
     /*
     // MARK: - Navigation

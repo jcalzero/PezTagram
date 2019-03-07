@@ -11,7 +11,8 @@ import UIKit
 class CommentTableViewCell: UITableViewCell {
 
     @IBOutlet var usernameCommentLabel: UILabel!
-    @IBOutlet var commentLabel: UILabel!
+    @IBOutlet var profilePicture: UIImageView!
+    @IBOutlet var commentTextView: UITextView!
     
     override func awakeFromNib() {
         super.awakeFromNib()

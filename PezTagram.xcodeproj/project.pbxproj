@@ -13,6 +13,8 @@
 		C40CAE99222F741A006709CD /* UserPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40CAE98222F741A006709CD /* UserPostViewController.swift */; };
 		C40D7985222FAA73008D0947 /* ProfilePostsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40D7984222FAA73008D0947 /* ProfilePostsCollectionViewCell.swift */; };
 		C40D7987222FBAB8008D0947 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40D7986222FBAB8008D0947 /* CommentTableViewCell.swift */; };
+		C40E170D2230B3DD0055BB3C /* PostProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40E170C2230B3DD0055BB3C /* PostProfileViewController.swift */; };
+		C40E170F2230DDB60055BB3C /* PostProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40E170E2230DDB60055BB3C /* PostProfileCollectionViewCell.swift */; };
 		C40E3DAF222A64DC0084060C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40E3DAE222A64DC0084060C /* AppDelegate.swift */; };
 		C40E3DB4222A64DC0084060C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40E3DB2222A64DC0084060C /* Main.storyboard */; };
 		C40E3DB6222A64DE0084060C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C40E3DB5222A64DE0084060C /* Assets.xcassets */; };
@@ -21,8 +23,6 @@
 		C40E3DCF222A64DE0084060C /* PezTagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40E3DCE222A64DE0084060C /* PezTagramUITests.swift */; };
 		C42D0329222A68A000D4F391 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D0328222A68A000D4F391 /* FeedViewController.swift */; };
 		C42D032B222A68BB00D4F391 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D032A222A68BB00D4F391 /* LoginViewController.swift */; };
-		C42D032F222A699900D4F391 /* ProfileCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D032E222A699900D4F391 /* ProfileCollectionView.swift */; };
-		C42D0331222A69BB00D4F391 /* ProfilesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D0330222A69BB00D4F391 /* ProfilesCollectionViewCell.swift */; };
 		C42D0333222A6F9300D4F391 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D0332222A6F9300D4F391 /* ProfileViewController.swift */; };
 		C42D0337222A72A000D4F391 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D0336222A72A000D4F391 /* PostViewController.swift */; };
 		C42D033C222A743A00D4F391 /* FeedPostsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D033B222A743A00D4F391 /* FeedPostsTableViewCell.swift */; };
@@ -57,6 +57,8 @@
 		C40CAE98222F741A006709CD /* UserPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostViewController.swift; sourceTree = "<group>"; };
 		C40D7984222FAA73008D0947 /* ProfilePostsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePostsCollectionViewCell.swift; sourceTree = "<group>"; };
 		C40D7986222FBAB8008D0947 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		C40E170C2230B3DD0055BB3C /* PostProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostProfileViewController.swift; sourceTree = "<group>"; };
+		C40E170E2230DDB60055BB3C /* PostProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostProfileCollectionViewCell.swift; sourceTree = "<group>"; };
 		C40E3DAB222A64DC0084060C /* PezTagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PezTagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C40E3DAE222A64DC0084060C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C40E3DB3222A64DC0084060C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -71,8 +73,6 @@
 		C40E3DD0222A64DE0084060C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C42D0328222A68A000D4F391 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		C42D032A222A68BB00D4F391 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		C42D032E222A699900D4F391 /* ProfileCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionView.swift; sourceTree = "<group>"; };
-		C42D0330222A69BB00D4F391 /* ProfilesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilesCollectionViewCell.swift; sourceTree = "<group>"; };
 		C42D0332222A6F9300D4F391 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		C42D0336222A72A000D4F391 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		C42D033B222A743A00D4F391 /* FeedPostsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPostsTableViewCell.swift; sourceTree = "<group>"; };
@@ -122,13 +122,13 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		C40D7983222FAA2E008D0947 /* Top Bar Profiles */ = {
+		C40E17102230DDBD0055BB3C /* Post Profile View */ = {
 			isa = PBXGroup;
 			children = (
-				C42D032E222A699900D4F391 /* ProfileCollectionView.swift */,
-				C42D0330222A69BB00D4F391 /* ProfilesCollectionViewCell.swift */,
+				C40E170C2230B3DD0055BB3C /* PostProfileViewController.swift */,
+				C40E170E2230DDB60055BB3C /* PostProfileCollectionViewCell.swift */,
 			);
-			path = "Top Bar Profiles";
+			path = "Post Profile View";
 			sourceTree = "<group>";
 		};
 		C40E3DA2222A64DC0084060C = {
@@ -159,10 +159,10 @@
 				C40E3DB2222A64DC0084060C /* Main.storyboard */,
 				C4FC0214222E372D008EBFBA /* SignUpViewController.swift */,
 				C42D032A222A68BB00D4F391 /* LoginViewController.swift */,
+				C40E3DAE222A64DC0084060C /* AppDelegate.swift */,
 				C42D033E222A74BC00D4F391 /* Post */,
 				C42D033D222A746500D4F391 /* Profile */,
 				C42D0338222A73A200D4F391 /* Feed */,
-				C40E3DAE222A64DC0084060C /* AppDelegate.swift */,
 				C40E3DB5222A64DE0084060C /* Assets.xcassets */,
 				C40E3DB7222A64DE0084060C /* LaunchScreen.storyboard */,
 				C40E3DBA222A64DE0084060C /* Info.plist */,
@@ -191,7 +191,6 @@
 		C42D0338222A73A200D4F391 /* Feed */ = {
 			isa = PBXGroup;
 			children = (
-				C40D7983222FAA2E008D0947 /* Top Bar Profiles */,
 				C42D0328222A68A000D4F391 /* FeedViewController.swift */,
 				C42D033B222A743A00D4F391 /* FeedPostsTableViewCell.swift */,
 			);
@@ -213,6 +212,7 @@
 				C42D0336222A72A000D4F391 /* PostViewController.swift */,
 				C40D7986222FBAB8008D0947 /* CommentTableViewCell.swift */,
 				C40CAE98222F741A006709CD /* UserPostViewController.swift */,
+				C40E17102230DDBD0055BB3C /* Post Profile View */,
 			);
 			path = Post;
 			sourceTree = "<group>";
@@ -464,14 +464,14 @@
 				C4FC0215222E372D008EBFBA /* SignUpViewController.swift in Sources */,
 				C42D0337222A72A000D4F391 /* PostViewController.swift in Sources */,
 				C42D0333222A6F9300D4F391 /* ProfileViewController.swift in Sources */,
+				C40E170D2230B3DD0055BB3C /* PostProfileViewController.swift in Sources */,
 				C42D032B222A68BB00D4F391 /* LoginViewController.swift in Sources */,
 				C40D7985222FAA73008D0947 /* ProfilePostsCollectionViewCell.swift in Sources */,
 				C42D0329222A68A000D4F391 /* FeedViewController.swift in Sources */,
-				C42D032F222A699900D4F391 /* ProfileCollectionView.swift in Sources */,
 				C40D7987222FBAB8008D0947 /* CommentTableViewCell.swift in Sources */,
+				C40E170F2230DDB60055BB3C /* PostProfileCollectionViewCell.swift in Sources */,
 				C40E3DAF222A64DC0084060C /* AppDelegate.swift in Sources */,
 				C42D033C222A743A00D4F391 /* FeedPostsTableViewCell.swift in Sources */,
-				C42D0331222A69BB00D4F391 /* ProfilesCollectionViewCell.swift in Sources */,
 				C40CAE99222F741A006709CD /* UserPostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -651,6 +651,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KLWZ722TCU;
 				INFOPLIST_FILE = PezTagram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -670,6 +671,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KLWZ722TCU;
 				INFOPLIST_FILE = PezTagram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

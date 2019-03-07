@@ -62,7 +62,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         let post = posts[indexPath.row]
         
         let user = post["author"] as! PFUser
-        cell.usernameLabel.text = user.username
+        cell.usernameLabelButton.setTitle(user.username, for: .normal)
         cell.usernameLabelTwo.text = user.username
         
         cell.captionLabel.text = post["caption"] as? String
@@ -73,10 +73,19 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         cell.photoView.af_setImage(withURL: url)
         
+        let imageFileTwo = user["profilePicture"] as! PFFileObject
+        let urlStringTwo = imageFileTwo.url!
+        let urlTwo = URL(string: urlStringTwo)!
+        
+        cell.profilePictureView.layer.cornerRadius = 25
+        cell.profilePictureView.clipsToBounds = true
+        cell.profilePictureView.af_setImage(withURL: urlTwo)
+        
         return cell
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if (segue.destination is PostViewController) {
             let postViewController = segue.destination as! PostViewController
             
             let cell = sender as! UITableViewCell
@@ -84,6 +93,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
             let post = posts[indexPath.row]
             
             postViewController.post = post
+        }
     }
 
     /*

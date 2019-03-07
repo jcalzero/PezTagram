@@ -68,7 +68,7 @@
                                     <action selector="signInButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Ed-qq-EjP"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="instaIcon" translatesAutoresizingMaskIntoConstraints="NO" id="euY-gS-yjz">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="instaIconLogo" translatesAutoresizingMaskIntoConstraints="NO" id="euY-gS-yjz">
                                 <rect key="frame" x="112" y="51" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="TPw-AI-GQe"/>
@@ -879,6 +879,7 @@
     <resources>
         <image name="home" width="30" height="30"/>
         <image name="instaIcon" width="128" height="128"/>
+        <image name="instaIconLogo" width="1000" height="1000"/>
         <image name="noProfilePicture" width="300" height="300"/>
         <image name="placeholder-square" width="500" height="500"/>
         <image name="user_male" width="30" height="30"/>

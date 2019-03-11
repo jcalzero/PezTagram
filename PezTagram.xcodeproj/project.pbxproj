@@ -10,6 +10,7 @@
 		08E75695A0767955C452DAE1 /* Pods_PezTagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D99267F2A15F212B6B5F9A /* Pods_PezTagram.framework */; };
 		4B69E49F85BEEBFD3F92716B /* Pods_PezTagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1142CEB2D309BD21AC46D106 /* Pods_PezTagramTests.framework */; };
 		890BAB062E9C1DA4652F78EA /* Pods_PezTagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F929E199434C0580DA9FC600 /* Pods_PezTagramUITests.framework */; };
+		C40807D22231B3AB00CAEA94 /* PostScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40807D12231B3AB00CAEA94 /* PostScrollViewController.swift */; };
 		C40CAE99222F741A006709CD /* UserPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40CAE98222F741A006709CD /* UserPostViewController.swift */; };
 		C40D7985222FAA73008D0947 /* ProfilePostsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40D7984222FAA73008D0947 /* ProfilePostsCollectionViewCell.swift */; };
 		C40D7987222FBAB8008D0947 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40D7986222FBAB8008D0947 /* CommentTableViewCell.swift */; };
@@ -54,6 +55,7 @@
 		30D99267F2A15F212B6B5F9A /* Pods_PezTagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PezTagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		319C1DFE9D8A5874CC4D965B /* Pods-PezTagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PezTagramUITests.debug.xcconfig"; path = "Target Support Files/Pods-PezTagramUITests/Pods-PezTagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5459D9AA56A35153BF890E0A /* Pods-PezTagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PezTagramTests.debug.xcconfig"; path = "Target Support Files/Pods-PezTagramTests/Pods-PezTagramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C40807D12231B3AB00CAEA94 /* PostScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostScrollViewController.swift; sourceTree = "<group>"; };
 		C40CAE98222F741A006709CD /* UserPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostViewController.swift; sourceTree = "<group>"; };
 		C40D7984222FAA73008D0947 /* ProfilePostsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePostsCollectionViewCell.swift; sourceTree = "<group>"; };
 		C40D7986222FBAB8008D0947 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
@@ -210,6 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				C42D0336222A72A000D4F391 /* PostViewController.swift */,
+				C40807D12231B3AB00CAEA94 /* PostScrollViewController.swift */,
 				C40D7986222FBAB8008D0947 /* CommentTableViewCell.swift */,
 				C40CAE98222F741A006709CD /* UserPostViewController.swift */,
 				C40E17102230DDBD0055BB3C /* Post Profile View */,
@@ -469,6 +472,7 @@
 				C40D7985222FAA73008D0947 /* ProfilePostsCollectionViewCell.swift in Sources */,
 				C42D0329222A68A000D4F391 /* FeedViewController.swift in Sources */,
 				C40D7987222FBAB8008D0947 /* CommentTableViewCell.swift in Sources */,
+				C40807D22231B3AB00CAEA94 /* PostScrollViewController.swift in Sources */,
 				C40E170F2230DDB60055BB3C /* PostProfileCollectionViewCell.swift in Sources */,
 				C40E3DAF222A64DC0084060C /* AppDelegate.swift in Sources */,
 				C42D033C222A743A00D4F391 /* FeedPostsTableViewCell.swift in Sources */,

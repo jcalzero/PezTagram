@@ -35,11 +35,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="vKr-tc-XtR" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="2pk-3j-sU1"/>
-                            <constraint firstItem="Chv-Lp-Adu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="77" id="8Du-gA-isQ"/>
                             <constraint firstItem="vKr-tc-XtR" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="A3U-gq-cPB"/>
                             <constraint firstItem="Chv-Lp-Adu" firstAttribute="top" secondItem="vKr-tc-XtR" secondAttribute="bottom" constant="7.5" id="ECX-iO-uZY"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Chv-Lp-Adu" secondAttribute="bottom" constant="166" id="pZj-wb-PuB"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Chv-Lp-Adu" secondAttribute="trailing" constant="77" id="xUJ-Wm-bZ9"/>
+                            <constraint firstItem="Chv-Lp-Adu" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="uN0-IQ-ZLT"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

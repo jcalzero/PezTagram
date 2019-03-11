@@ -31,24 +31,36 @@ class UserPostViewController: UIViewController, UIImagePickerControllerDelegate,
     }
     
     @IBAction func onCamera(_ sender: Any) {
-        let picker = UIImagePickerController()
-        picker.delegate = self
-        picker.allowsEditing = true
         
-        picker.sourceType = .photoLibrary
-        
-        present(picker, animated: true, completion: nil)
+        if UIImagePickerController.isSourceTypeAvailable(.camera) {
+            let picker = UIImagePickerController()
+            picker.delegate = self
+            picker.allowsEditing = true
+            
+            picker.sourceType = UIImagePickerController.SourceType.camera
+            self.present(picker, animated: true, completion: nil)
+        } else {
+            let picker = UIImagePickerController()
+            picker.delegate = self
+            picker.allowsEditing = true
+            
+            picker.sourceType = UIImagePickerController.SourceType.photoLibrary
+            self.present(picker, animated: true, completion: nil)
+        }
     }
     
     @objc func imagePickerController(_ _picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-        let image = info[.editedImage] as! UIImage
+        if let image = info[.editedImage] as? UIImage {
+            let size = CGSize(width: 250, height: 250)
+            let scaledImage = image.af_imageAspectScaled(toFill: size)
+            
+            imagePost.image = scaledImage
+            
+            dismiss(animated: true, completion: nil)
+        } else {
+            print("Error bringing picture up...")
+        }
         
-        let size = CGSize(width: 250, height: 250)
-        let scaledImage = image.af_imageAspectScaled(toFill: size)
-        
-        imagePost.image = scaledImage
-        
-        dismiss(animated: true, completion: nil)
     }
     
     @IBAction func onPost(_ sender: Any) {
